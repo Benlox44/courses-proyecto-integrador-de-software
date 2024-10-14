@@ -16,4 +16,7 @@ export class Course {
 
   @Column('text')
   description: string;
+
+  @Column()
+  imageUrl: string;  // Campo para la URL de la imagen
 }
